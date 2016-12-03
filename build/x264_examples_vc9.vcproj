@@ -4,7 +4,7 @@
 	Version="9.00"
 	Name="x264_examples_vc9"
 	ProjectGUID="{4D52CB0E-B80F-4659-9220-AB8B5E4A27EF}"
-	RootNamespace="x264_static_vc9"
+	RootNamespace="x264_examples_vc9"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -177,7 +177,15 @@
 	</References>
 	<Files>
 		<File
-			RelativePath="..\x264.c"
+			RelativePath="..\source\x264.c"
+			>
+		</File>
+		<File
+			RelativePath="..\source\xyuv.c"
+			>
+		</File>
+		<File
+			RelativePath="..\source\yay.c"
 			>
 		</File>
 	</Files>
